@@ -34,7 +34,7 @@
             /* El 0.5 es la opacidad (50%). Cero es transparente, 1 es sólido. */
             linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
             /* Segundo elemento: Tu imagen de fondo. */
-            url('background.jpg');
+            url('assets/background.jpg');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
