@@ -24,20 +24,3 @@
     </Sectionwrapper>
 </div>
 
-<style>
-    .background {
-        height: 100vh;
-        /* La imagen de fondo */
-        background-image:
-            /* Primer degradado: Un overlay oscuro que se superpone a la imagen. */
-            /* Puedes ajustar el 'rgba(0, 0, 0, 0.5)' para controlar la oscuridad. */
-            /* El 0.5 es la opacidad (50%). Cero es transparente, 1 es sólido. */
-            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-            /* Segundo elemento: Tu imagen de fondo. */
-            url('assets/background.jpg');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        color: white;
-    }
-</style>

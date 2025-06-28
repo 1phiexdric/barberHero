@@ -39,3 +39,14 @@ button:not(.menu-toggle):focus-visible {
     background-color: #ffffff;
     color: black;
 }
+
+.background {
+        height: 100vh;
+        background-image:
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+            url('/assets/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+    }
