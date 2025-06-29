@@ -16,7 +16,7 @@
   Deja de pensar en tu look, ¡y ven a crearlo! En nuestra barbería, tienes a tu disposición a <span class="italic">expertos en estilo, las últimas tendencias, técnicas precisas</span> y mucho, mucho más.
 </p>
 <button class="specialBtnDark">
-        <p class="text-base sm:text-lg md:text-xl">¡Haz tu reserva! &rArr;</p>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=48X8Nc8DbBZPeGro" target="_blank"><p class="text-base sm:text-lg md:text-xl">¡Haz tu reserva! &rArr;</p></a>
     </button>
 <Stars/>
 

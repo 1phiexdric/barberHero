@@ -81,7 +81,7 @@
   @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Rose:wght@300..700&display=swap");
 
   :global(:root){
-    --navbar-bg: rgb(0, 0, 0);
+    --navbar-bg: white;
     --navbar-text: black;
     --navbar-nesting: white;
     --navbar-hover: white;

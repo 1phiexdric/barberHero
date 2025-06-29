@@ -109,6 +109,7 @@
     object-fit: cover;
     display: block;
     margin: auto;
+    box-shadow: 0 2px 60px 0 rgba(128,128,128,0.3);
 }
 
 .slider_arrow{

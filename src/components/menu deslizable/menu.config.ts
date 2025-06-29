@@ -2,7 +2,7 @@ export const config = {
     menu: [
     {
       title: "INICIO",
-      href: "/",
+      href: "#",
     },
     {
       title: "SERVICIOS",
@@ -11,6 +11,9 @@ export const config = {
     {
       title: "RESEÑAS",
       href: "#reviews",
+    },{
+      title: "P.FRECUENTES",
+      href: "#FQAs"
     },{
       title: "CONTACTO",
       href: "#contact",
