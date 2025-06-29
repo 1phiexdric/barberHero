@@ -7,42 +7,11 @@
   let title = "Friedrich";
   let menu = config.menu
   let estilos = config.style
-  let subMenus: Array<HTMLElement> = $state([])
   let mostrar = $state(false)
 
-  function addClickAction(node: HTMLElement, tieneSubmenu: boolean) {
-    if (tieneSubmenu) {
-      node.addEventListener("click", () => {
-        let subMenu = node.children[1] as HTMLElement;
-        subMenus.push(subMenu)
-        let arrow = node.querySelector('.menu_arrow') as HTMLElement;
-        let height = 0;
+  
 
-        if (subMenu.clientHeight === 0) {
-          height = subMenu.scrollHeight;
-          arrow.style.transform = 'rotate(0deg)';
-        } else {
-        arrow.style.transform = 'rotate(-90deg)';
-      }
-
-        subMenu.style.height = `${height}px`;
-      });
-    }
-  }
-  const deleteStyleHeight = ()=>{
-    subMenus.forEach((elemento) => {
-      // Aquí puedes manipular cada elemento del subMenus si lo necesitas
-      if(elemento.getAttribute('style')){
-        elemento.removeAttribute('style')
-      }
-    })
-  }
   onMount(()=>{
-    window.addEventListener('resize', ()=>{
-      if(window.innerWidth > 800){
-        deleteStyleHeight()
-      }
-    })
     document.documentElement.style.setProperty('--navbar-bg', estilos.backgroundColor)
     document.documentElement.style.setProperty('--navbar-text', estilos.textColor)
     document.documentElement.style.setProperty('--navbar-nesting', estilos.nestingColor)
@@ -96,6 +65,9 @@
     background-color: var(--navbar-bg);
     color: var(--navbar-text);
     height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
   .menu_container {
     display: flex;
@@ -262,7 +234,6 @@
         right: 0;
         background-color: white;
         overflow-y: auto;
-        z-index: 1000;
         display: grid;
         grid-auto-rows: max-content;
         transform: translateX(100%);

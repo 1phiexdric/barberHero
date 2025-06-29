@@ -6,8 +6,7 @@
 
 <div class="background">
     <Sectionwrapper id="header">
-        <Menu/>
-<div class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14">
+<div class="flex flex-col gap-10 flex-1 items-center justify-center pb-10 md:pb-14 text_container">
       <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl max-w-[1200px]
       mx-auto w-full text-center font-semibold text-white">
       Tu momento. Tu estilo. Tu barbería.
@@ -24,3 +23,8 @@
     </Sectionwrapper>
 </div>
 
+<style>
+  .text_container{
+    margin-top: 70px;
+  }
+</style>

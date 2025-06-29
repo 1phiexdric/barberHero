@@ -22,7 +22,7 @@ export const config = {
   style: {
     backgroundColor: '#fff',
     textColor: 'black',
-    nestingColor: 'white',
+    nestingColor: '#eeeccc',
     menuHover: 'gray',
     hamburgerBtn: "#000000"
   }
