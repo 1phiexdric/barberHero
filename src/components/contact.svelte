@@ -22,7 +22,7 @@
         <p class="text-lg">Horario: 8:30am a 5pm de lun a vie</p>
         <p class="text-lg">Teléfono: +58412111111</p>
         <button class="specialBtnDark">
-        <p class="text-base sm:text-lg md:text-xl">¡Haz tu reserva! &rArr;</p>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=48X8Nc8DbBZPeGro" target="_blank" class="text-base sm:text-lg md:text-xl">¡Haz tu reserva! &rArr;</a>
     </button>
     </div>
 

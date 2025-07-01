@@ -27,7 +27,7 @@ button:not(.menu-toggle), .button:not(.menu-toggle) {
 }
 
 button:not(.menu-toggle):hover {
-    border-color: #636cff;
+    border-color: black;
 }
 
 button:not(.menu-toggle):focus,
@@ -49,4 +49,10 @@ button:not(.menu-toggle):focus-visible {
         background-position: center;
         background-attachment: fixed;
         color: white;
+    }
+
+    @media(width < 800px){
+        .margin-top{
+            margin-top: 70px;
+        }
     }

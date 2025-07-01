@@ -27,9 +27,5 @@
         width: 30%;
         margin: 10px auto;
     }
-    @media(width < 800px){
-        .margin-top{
-            margin-top: 20px;
-        }
-    }
+    
 </style>
